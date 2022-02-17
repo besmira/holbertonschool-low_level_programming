@@ -13,9 +13,9 @@ int _strcmp(char *s1, char *s2)
      {
      	 if (s1[i] = s2[i])
          n1 = s1[i] - s2[i];
-   	             break;
-      else
-                n1 = 0;
+   	            	   break;
+      else	
+     		           n1 = 0;
       i++;
      }
 	return (n);
