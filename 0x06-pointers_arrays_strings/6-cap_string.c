@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * cap_string - capitalise all words of a string
  *@s: string
@@ -18,10 +17,13 @@ char *cap_string(char *s)
 			s[i] = s[i];
 		else if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
 		{
-			if (s[i] == '"' || s[i] == '(' || s[i] == ')' || s[i] == '{' || s[i] == '}' || 
-			    s[i] == '\n' || s[i] == '\t' || s[i] == '.' || 
-			    s[i] == '?' || s[i] == ';' || s[i] == '!' || 
-			    s[i] == ',' || s[i] == ' ' || s[i] == '.')
+			if (s[i] == '"' || s[i] == '(' || s[i] == ')' ||
+					s[i] == '{' || s[i] == '}' ||
+					s[i] == '\n' || s[i] == '\t' ||
+					s[i] == '.' || s[i] == '?' ||
+					s[i] == ';' || s[i] == '!' ||
+					s[i] == ',' || s[i] == ' ' ||
+					s[i] == '.')
 			{
 				s[i + 1] = s[i + 1] - 'a' + 'A';
 			}
