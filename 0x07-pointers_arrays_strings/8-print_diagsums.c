@@ -23,9 +23,9 @@ void print_diagsums(int *a, int size)
     }
   }
   printf("Matrix = \n");
-  for(int i=0; i<3; i++)
+  for(int i = 0; i < 3; i++)
   {
-    for(int j=0; j<3; j++)
+    for(int j = 0; j < 3; j++)
     {
       printf("%d ", matrix[i][j]);
     }
