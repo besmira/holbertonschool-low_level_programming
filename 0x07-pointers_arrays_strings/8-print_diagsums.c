@@ -32,5 +32,5 @@ int sum = 0;
     printf("\n");
   }
   printf("Sum of diagonal elements = %d\n", sum);
-   return (void);
+   return;
 }
