@@ -32,6 +32,5 @@ void print_diagsums(int *a, int size)
     printf("\n");
   }
   printf("Sum of diagonal elements = %d\n", sum);
- 
-  return (0);
+   return (0);
 }
